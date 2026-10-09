@@ -1,0 +1,9 @@
+﻿@model IEnumerable<MultiVendorMarketplace.Models.Product>
+
+<div>
+	<h1>Products Page</h1>
+	@foreach(var p in Model)
+	{
+		<h2>@p.Id  @p.Name  @p.Price  @p.Description</h2>
+	}
+</div>
