@@ -1,26 +1,30 @@
-﻿using MultiVendorMarketplace.Models.Services.Interfaces;
+﻿using MultiVendorMarketplace.Models.Repositories;
+using MultiVendorMarketplace.Models.Services.Interfaces;
 
 namespace MultiVendorMarketplace.Models.Services.Implementations
 {
     public class ProductService : IProductService
     {
-        private List<Product> products;
+        private List<Product> _products;
 
         public ProductService() 
         {
-            products = new()
-            {
-                new Product(){Id = 1, Name = "iPhone", Price = 3000, Description = "A Great Product"},
-                new Product(){Id = 2, Name = "Watch", Price = 200, Description = "A Great Watch"},
-                new Product(){Id = 3, Name = "Smart Glass", Price = 100, Description = "A Great Glass"}
-            };
+            _products = DemoData.products;
                     
         }
-        public Product? GetProductById(int id) => products.Find(product => product.Id == id);
+
+        public List<Product>? GetByStoreId(int storeid)
+        {
+          return _products.Where<Product>(p => p.StoreId == storeid).ToList();          
+        }
+
+        public Product? GetProductById(int id) => _products.FirstOrDefault(product => product.Id == id);
 
         public List<Product> GetProducts()
         {
-            return products;
+            return _products;
         }
+
+        
     }
 }

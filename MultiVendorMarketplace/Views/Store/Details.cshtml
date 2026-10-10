@@ -1,3 +1,24 @@
-﻿<div>
+﻿@model MultiVendorMarketplace.Models.Store
+
+<div>
 	<h1>Store Details Page</h1>
+	<div>
+		<h2>	@Model.Name</h2><br />
+		<div>
+			@if (Model.products.Count != 0)
+			{
+				<h3>@Model.products.GetType()</h3>
+				@foreach (var pr in Model.products)
+				{
+					<h2>@pr.Name  @pr.Price  @pr.Description</h2>
+				}
+
+			}
+			else
+			{
+				<h3>No Products in This Store yet</h3>			
+			}
+		</div><br />
+		<h2>	@Model.Description</h2>
+	</div>
 </div>

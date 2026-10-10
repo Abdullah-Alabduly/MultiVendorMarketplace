@@ -21,7 +21,8 @@ namespace MultiVendorMarketplace.Controllers
         public IActionResult Details(int id) 
         {  
             var product = _iproductService.GetProductById(id);
-            return View(product); 
+
+            return (product == null)? NotFound("The Product Not Found") :View(product); 
         }
     }
 }
