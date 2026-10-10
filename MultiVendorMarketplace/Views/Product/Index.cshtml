@@ -1,9 +1,31 @@
 ﻿@model IEnumerable<MultiVendorMarketplace.Models.Product>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.title = "Produ t List";
+}
 
-<div>
-	<h1>Products Page</h1>
-	@foreach(var p in Model)
-	{
-		<h2>@p.Id  @p.Name  @p.Price  @p.Description</h2>
-	}
-</div>
+            <h1 class="text-center">@ViewBag.title</h1>
+            <table class="table table-striped" >
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var p in Model)
+                    {
+	                    <tr>
+                            <td>@p.Id</td>
+                            <td>@p.Name</td>
+                            <td>@p.Price</td>
+                            <td><a class="btn btn-primary">Edit</a></td>
+                            <td><a class="btn btn-danger">Delete</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+   

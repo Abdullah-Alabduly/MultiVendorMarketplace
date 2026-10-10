@@ -15,6 +15,7 @@ namespace MultiVendorMarketplace.Controllers
         public IActionResult Index()
         {
             var products = _iproductService.GetProducts();
+           
             return View(products);
         }
         [HttpGet("/products/{id:int}")]

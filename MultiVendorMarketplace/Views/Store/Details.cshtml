@@ -1,24 +1,41 @@
 ﻿@model MultiVendorMarketplace.Models.Store
+@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.title = "Store Product";
+}
+<h1 class="text-center">@ViewBag.title</h1>
+ @if (Model.products.Count != 0)
+        {
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+       
 
-<div>
-	<h1>Store Details Page</h1>
-	<div>
-		<h2>	@Model.Name</h2><br />
-		<div>
-			@if (Model.products.Count != 0)
-			{
-				<h3>@Model.products.GetType()</h3>
-				@foreach (var pr in Model.products)
-				{
-					<h2>@pr.Name  @pr.Price  @pr.Description</h2>
-				}
+            @foreach (var p in Model.products)
+            {
+                <tr>
+                    <td>@p.Id</td>
+                    <td>@p.Name</td>
+                    <td>@p.Price</td>
+                    <td><a class="btn btn-primary">Edit</a></td>
+                    <td><a class="btn btn-danger">Delete</a></td>
+                </tr>
+            }
 
-			}
-			else
-			{
-				<h3>No Products in This Store yet</h3>			
-			}
-		</div><br />
-		<h2>	@Model.Description</h2>
-	</div>
-</div>
+        
+       
+    </tbody>
+</table>
+
+  }else
+    {
+        <h3>No Products in This Store yet</h3>
+    }
