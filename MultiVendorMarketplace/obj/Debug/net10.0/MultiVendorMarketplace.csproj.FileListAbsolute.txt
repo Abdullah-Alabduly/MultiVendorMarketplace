@@ -138,3 +138,4 @@ C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\ne
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\compressed\lig3m7i0ne-{0}-ir474ug6zy-ir474ug6zy.gz
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\compressed\psdks1f0jx-{0}-5cl6jzyzps-5cl6jzyzps.gz
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\compressed\qnq6pw5jty-{0}-a2c1phmbzv-a2c1phmbzv.gz
+C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\MultiVendorMarketplace.sourcelink.json

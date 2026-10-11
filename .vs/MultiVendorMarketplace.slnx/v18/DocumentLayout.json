@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|c:\\users\\obad\\desktop\\multivendormarketplace\\multivendormarketplace\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|solutionrelative:multivendormarketplace\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|c:\\users\\obad\\desktop\\multivendormarketplace\\multivendormarketplace\\views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|solutionrelative:multivendormarketplace\\views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|c:\\users\\obad\\desktop\\multivendormarketplace\\multivendormarketplace\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|solutionrelative:multivendormarketplace\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|c:\\users\\obad\\desktop\\multivendormarketplace\\multivendormarketplace\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|solutionrelative:multivendormarketplace\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|c:\\users\\obad\\desktop\\multivendormarketplace\\multivendormarketplace\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|solutionrelative:multivendormarketplace\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|c:\\users\\obad\\desktop\\multivendormarketplace\\multivendormarketplace\\models\\services\\implementations\\storeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|solutionrelative:multivendormarketplace\\models\\services\\implementations\\storeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|c:\\users\\obad\\desktop\\multivendormarketplace\\multivendormarketplace\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|solutionrelative:multivendormarketplace\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|c:\\users\\obad\\desktop\\multivendormarketplace\\multivendormarketplace\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|solutionrelative:multivendormarketplace\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|c:\\users\\obad\\desktop\\multivendormarketplace\\multivendormarketplace\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|solutionrelative:multivendormarketplace\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|c:\\users\\obad\\desktop\\multivendormarketplace\\multivendormarketplace\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|solutionrelative:multivendormarketplace\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|c:\\users\\obad\\desktop\\multivendormarketplace\\multivendormarketplace\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|solutionrelative:multivendormarketplace\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|c:\\users\\obad\\desktop\\multivendormarketplace\\multivendormarketplace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|solutionrelative:multivendormarketplace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|c:\\users\\obad\\desktop\\multivendormarketplace\\multivendormarketplace\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|solutionrelative:multivendormarketplace\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|c:\\users\\obad\\desktop\\multivendormarketplace\\multivendormarketplace\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C69C0D61-EC14-A2D9-0076-0192F0658731}|MultiVendorMarketplace\\MultiVendorMarketplace.csproj|solutionrelative:multivendormarketplace\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,92 +54,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Store\\Details.cshtml",
-              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Views\\Store\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Store\\Details.cshtml",
-              "RelativeToolTip": "MultiVendorMarketplace\\Views\\Store\\Details.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-10T23:14:02.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Store\\Index.cshtml",
-              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Views\\Store\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Store\\Index.cshtml",
-              "RelativeToolTip": "MultiVendorMarketplace\\Views\\Store\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-10T22:57:21.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "MultiVendorMarketplace\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA0wBEAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T22:55:25.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MultiVendorMarketplace\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "MultiVendorMarketplace\\Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-10T22:51:49.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "MultiVendorMarketplace\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-10T22:00:42.624Z",
+              "WhenOpened": "2026-10-11T20:36:18.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Program.cs",
-              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Program.cs",
-              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Program.cs",
-              "RelativeToolTip": "MultiVendorMarketplace\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T22:00:09.67Z"
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "MultiVendorMarketplace\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-11T20:47:08.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MultiVendorMarketplace\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-11T20:46:52.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Store\\Details.cshtml",
+              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Views\\Store\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Store\\Details.cshtml",
+              "RelativeToolTip": "MultiVendorMarketplace\\Views\\Store\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-11T20:17:12.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MultiVendorMarketplace\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-11T20:02:38.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "MultiVendorMarketplace\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-11T19:53:21.908Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StoreService.cs",
-              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Models\\Services\\Implementations\\StoreService.cs",
-              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Models\\Services\\Implementations\\StoreService.cs",
-              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Models\\Services\\Implementations\\StoreService.cs",
-              "RelativeToolTip": "MultiVendorMarketplace\\Models\\Services\\Implementations\\StoreService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T19:31:44.649Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Store\\Index.cshtml",
+              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Views\\Store\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Store\\Index.cshtml",
+              "RelativeToolTip": "MultiVendorMarketplace\\Views\\Store\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-11T19:50:31.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MultiVendorMarketplace\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-11T19:47:53.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MultiVendorMarketplace\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Obad\\Desktop\\MultiVendorMarketplace\\MultiVendorMarketplace\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MultiVendorMarketplace\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-11T19:47:46.714Z",
               "EditorCaption": ""
             }
           ]

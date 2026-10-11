@@ -1,6 +1,5 @@
-﻿@model IEnumerable<MultiVendorMarketplace.Models.Product>
+﻿@model IEnumerable<Product>
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.title = "Produ t List";
 }
 
@@ -28,4 +27,7 @@
                     }
                 </tbody>
             </table>
-   
+   @section Scripts{
+	<a href="~/lib/bootstrap/js/bootstrap.min.js.map">~/lib/bootstrap/js/bootstrap.min.js.map</a>
+	<script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+   }

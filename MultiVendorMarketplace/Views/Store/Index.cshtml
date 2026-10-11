@@ -1,6 +1,5 @@
-﻿@model IEnumerable<MultiVendorMarketplace.Models.Store>
+﻿@model IEnumerable<Store>
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.title = "Store List";
 }
 <h1 class="text-center">@ViewBag.title</h1>
@@ -27,3 +26,7 @@
         }
     </tbody>
 </table>
+@section Scripts{
+	<a href="~/lib/jquery/dist/jquery.slim.min.map">~/lib/jquery/dist/jquery.slim.min.map</a>
+	<script src="~/lib/jquery/dist/jquery.slim.min.js"></script>
+}
