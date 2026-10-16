@@ -11,14 +11,13 @@ namespace MultiVendorMarketplace.Controllers
             _iproductService = iproductService;
         }
 
-        [HttpGet("/products")]
         public IActionResult Index()
         {
+            //return ControllerContext.MyDisplayRouteInfo(); to display this needs insatll rick.Docs package         
             var products = _iproductService.GetProducts();
-           
-            return View(products);
+            return Json(products);
+            //return View(products);
         }
-        [HttpGet("/products/{id:int}")]
         public IActionResult Details(int id) 
         {  
             var product = _iproductService.GetProductById(id);

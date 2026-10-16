@@ -22,10 +22,11 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
+//app.MapDefaultControllerRoute();
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Product}/{action=Index}/{id?}")
-    .WithStaticAssets();
+    pattern: "{controller=Product}/{action=Index}/{id?}");
 
 
 app.Run();

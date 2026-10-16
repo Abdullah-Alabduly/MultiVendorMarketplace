@@ -11,13 +11,11 @@ namespace MultiVendorMarketplace.Controllers
         {
             _storesevice = storeservice;
         }
-        [HttpGet("/stores")]
         public IActionResult Index()
         {
             var stores = _storesevice.GetStores();
             return View(stores);
         }
-        [HttpGet("/stores/{id:int}")]
         public IActionResult Details(int id)
         {
             var store = _storesevice.GetStoreById(id);
