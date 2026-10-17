@@ -2,8 +2,8 @@ using MultiVendorMarketplace.Models.Services.Implementations;
 using MultiVendorMarketplace.Models.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<IStoreService, StoreService>();
+builder.Services.AddSingleton<IProductService, ProductService>();
+builder.Services.AddSingleton<IStoreService, StoreService>();
 
 builder.Services.AddControllersWithViews();
 
@@ -26,7 +26,7 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Product}/{action=Index}/{id?}");
+    pattern: "{controller=Store}/{action=Index}/{id?}");
 
 
 app.Run();

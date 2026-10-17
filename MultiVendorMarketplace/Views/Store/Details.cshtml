@@ -4,6 +4,9 @@
     ViewBag.title = "Store Product";
 }
 <h1 class="text-center">@ViewBag.title</h1>
+ <div>
+    <a asp-action="Create" asp-controller="Product" asp-route-id="@Model.Id" class="btn btn-primary">Create New Product</a>
+ </div>
  @if (Model.products!.Count != 0)
         {
 <table class="table table-striped">

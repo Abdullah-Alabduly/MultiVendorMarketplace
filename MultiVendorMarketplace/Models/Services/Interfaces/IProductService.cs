@@ -6,5 +6,6 @@
         public Product? GetProductById(int id);
 
         public List<Product>? GetByStoreId(int storeid);
+        public void AddProduct(Product product);
     }
 }

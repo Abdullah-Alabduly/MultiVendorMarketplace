@@ -3,13 +3,14 @@
     ViewBag.title = "Produ t List";
 }
 
-            <h1 class="text-center">@ViewBag.title</h1>
+            <h1 class="text-center">@ViewBag.title</h1>           
             <table class="table table-striped" >
                 <thead>
                     <tr>
                         <th>Id</th>
                         <th>Name</th>
                         <th>Price</th>
+                        <th>Details</th>
                         <th>Edit</th>
                         <th>Delete</th>
                     </tr>
@@ -21,6 +22,7 @@
                             <td>@p.Id</td>
                             <td>@p.Name</td>
                             <td>@p.Price</td>
+                            <td><a asp-action="Details"asp-route-id="@p.Id" class="btn btn-info">Details</a></td>
                             <td><a class="btn btn-primary">Edit</a></td>
                             <td><a class="btn btn-danger">Delete</a></td>
                         </tr>
