@@ -86,13 +86,11 @@ C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\ne
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\MultiVendorMarketplace.dll
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\refint\MultiVendorMarketplace.dll
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\MultiVendorMarketplace.pdb
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\MultiVendorMarketplace.genruntimeconfig.cache
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\ref\MultiVendorMarketplace.dll
-C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\MultiVen.A0B24377.Up2Date
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\bin\Debug\net10.0\libman.json
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\compressed\7qtrq93gjs-{0}-m63nr5e1wm-m63nr5e1wm.gz
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\compressed\6uuvw5sajj-{0}-gaqwphjnqn-gaqwphjnqn.gz
@@ -139,3 +137,5 @@ C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\ne
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\compressed\psdks1f0jx-{0}-5cl6jzyzps-5cl6jzyzps.gz
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\compressed\qnq6pw5jty-{0}-a2c1phmbzv-a2c1phmbzv.gz
 C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\MultiVendorMarketplace.sourcelink.json
+C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Obad\Desktop\MultiVendorMarketplace\MultiVendorMarketplace\obj\Debug\net10.0\MultiVen.A0B24377.Up2Date

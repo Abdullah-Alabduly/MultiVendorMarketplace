@@ -35,18 +35,41 @@ namespace MultiVendorMarketplace.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Product model)
+        public IActionResult Create(int id,Product model)
         {
             try
             {
+                if (id != model.StoreId) return NotFound("The Product Not Found");
                 _iproductService.AddProduct(model);
-                return RedirectToAction(actionName: nameof(Details), controllerName: "Store",routeValues: new {id = model.StoreId});
-
+                return RedirectToAction(actionName: nameof(Details), controllerName: nameof(Store),routeValues: new {id = model.StoreId});
             }
-            catch (Exception ex) {
+            catch (Exception) {
                 return View();
             }
             
+        }
+        [HttpGet]
+        public IActionResult Update(int id)
+        {
+            var product = _iproductService.GetProductById(id);
+            if (product == null) return NotFound("The Product Not Found");
+            return View(product);
+
+        }
+        [HttpPost]
+        public IActionResult Update(int id, Product model)
+        {
+            try
+            {
+                if (id != model.Id) return NotFound("Product Not Found");
+                _iproductService.UpdateProduct(model);
+                return RedirectToAction(controllerName:nameof(Store), actionName: nameof(Details), routeValues:new {id = model.StoreId});
+            }
+            catch (Exception) 
+            {
+                return NotFound("Product Not Found");
+            }
+
         }
     }
 }

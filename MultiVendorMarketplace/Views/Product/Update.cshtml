@@ -1,0 +1,14 @@
+﻿
+@model Product
+
+<div>
+	<h3>@ViewData["id"]</h3>
+	<form asp-action="Update" asp-controller="Product" method="post">
+		<label asp-for="Name"></label>
+		<input asp-for="Name" class="form-control"/>
+		<label asp-for="Price"></label>
+		<input asp-for="Price" class="form-control"/>
+		<input asp-for="StoreId" class="form-control" hidden="hidden"/>
+		<input type="submit" value="Edit" class="btn btn-primary" />
+	</form>
+</div>

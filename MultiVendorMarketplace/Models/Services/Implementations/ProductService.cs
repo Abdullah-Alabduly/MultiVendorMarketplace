@@ -33,6 +33,13 @@ namespace MultiVendorMarketplace.Models.Services.Implementations
             return _products;
         }
 
-        
+        public void UpdateProduct(Product model)
+        {
+            var product = GetProductById(model.Id);
+            if (product != null) { 
+                product.Name = model.Name;
+                product.Price = model.Price;
+            }
+        }
     }
 }
