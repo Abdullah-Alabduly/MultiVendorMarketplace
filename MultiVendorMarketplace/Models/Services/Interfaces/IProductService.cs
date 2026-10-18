@@ -8,5 +8,6 @@
         public List<Product>? GetByStoreId(int storeid);
         public void AddProduct(Product product);
         public void UpdateProduct(Product model);
+        public int DeleteProductById(int id);
     }
 }

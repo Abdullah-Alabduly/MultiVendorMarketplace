@@ -16,9 +16,25 @@ namespace MultiVendorMarketplace.Models.Services.Implementations
         public void AddProduct(Product product)
         {
             if (product != null) { 
-            product.Id = _products.Max(p => p.Id)+1;
-            _products.Add(product);
+                if(_products.Any()) 
+                    {
+                        product.Id = _products.Max(p => p.Id)+1;
+                    }else product.Id = 1;
+                
+                 _products.Add(product);
             }
+        }
+
+        public int DeleteProductById(int id)
+        {
+            var product = GetProductById(id);
+            if(product != null)
+            {
+                int storid = product.StoreId;
+                _products.Remove(product);   
+                return storid;            
+            }
+            return -1;
         }
 
         public List<Product>? GetByStoreId(int storeid)

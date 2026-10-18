@@ -69,7 +69,34 @@ namespace MultiVendorMarketplace.Controllers
             {
                 return NotFound("Product Not Found");
             }
+        }
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            try
+            {
+                 var product = _iproductService.GetProductById(id);
+                return View(product);
+            }
+            catch (Exception)
+            {
+                return NotFound("Product Not Found");            
+            }
+           
+        }
 
+        [HttpPost, ActionName("Delete")]
+        public IActionResult DeleteConfirm(int id)
+        {
+            try
+            {
+                int storeId = _iproductService.DeleteProductById(id);
+                return RedirectToAction(controllerName:nameof(Store), actionName:nameof(Details) , routeValues: new {id = storeId});
+            }
+            catch (Exception)
+            {
+                return NotFound("The Product Not Found");
+            }
         }
     }
 }
