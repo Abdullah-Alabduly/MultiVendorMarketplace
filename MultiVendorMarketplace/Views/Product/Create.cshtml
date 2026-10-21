@@ -2,13 +2,22 @@
 @model Product
 
 <div>
-	<h3>@ViewData["id"]</h3>
+
 	<form asp-action="Create" asp-controller="Product" method="post">
-		<label asp-for="Name"></label>
-		<input asp-for="Name" class="form-control"/>
-		<label asp-for="Price"></label>
-		<input asp-for="Price" class="form-control"/>
-		<input asp-for="StoreId" value="@ViewData["id"]" hidden="hidden"/>
-		<input type="submit" value="Create" class="btn btn-primary" />
+		<div asp-validation-summary="ModelOnly"></div>
+		<div>
+			<label asp-for="Name"></label>
+			<input asp-for="Name" class="form-control"/>
+			<span asp-validation-for="Name" class="text-dabger"></span>
+		</div>
+		<div>
+			<label asp-for="Price"></label>
+			<input asp-for="Price" class="form-control"/>
+			<span asp-validation-for="Price"></span>
+			<input asp-for="StoreId" value="@ViewData["id"]" hidden="hidden"/>
+		</div>
+		<div>
+			<input type="submit" value="Create" class="btn btn-primary" />
+		</div>
 	</form>
 </div>

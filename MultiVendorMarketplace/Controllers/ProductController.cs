@@ -35,13 +35,19 @@ namespace MultiVendorMarketplace.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(int id,Product model)
+        public IActionResult Create(int id,[FromForm]Product model)
         {
             try
             {
-                if (id != model.StoreId) return NotFound("The Product Not Found");
-                _iproductService.AddProduct(model);
-                return RedirectToAction(actionName: nameof(Details), controllerName: nameof(Store),routeValues: new {id = model.StoreId});
+                if (ModelState.IsValid)
+                {
+                     if (id != model.StoreId) return NotFound("The Product Not Found");
+                    _iproductService.AddProduct(model);
+                    return RedirectToAction(actionName: nameof(Details), controllerName: nameof(Store),routeValues: new {id = model.StoreId});
+
+                }
+                ViewData["id"] = model.StoreId;
+                 return View(model);
             }
             catch (Exception) {
                 return View();
@@ -57,7 +63,7 @@ namespace MultiVendorMarketplace.Controllers
 
         }
         [HttpPost]
-        public IActionResult Update(int id, Product model)
+        public IActionResult Update(int id,[FromForm] Product model)
         {
             try
             {

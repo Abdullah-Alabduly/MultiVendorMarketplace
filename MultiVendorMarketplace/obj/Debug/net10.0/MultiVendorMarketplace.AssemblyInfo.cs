@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiVendorMarketplace")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+236b1c774536071f0c55e97a94acfd2ea218f0ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+689116c84961b58bcdcd357f7659a298c7b6d262")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiVendorMarketplace")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiVendorMarketplace")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
